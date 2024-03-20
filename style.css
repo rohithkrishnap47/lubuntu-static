@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu Mono", monospace;
+}
+.navbar {
+  height: 80px;
+}
+@media (max-width: 768px) 
+{
+  .navbar-brand img {
+    max-height: 100px;
+    padding-bottom: 20px;
+  }
+  .banner {
+    background-size: 100vh;
+  }
+
+}
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-item .nav-link {
+  color: rgb(243, 227, 227);
+  font-size: 1.1em;
+}
+.nav-item #bb:hover {
+  color: #ffff;
+  border-bottom: 4px solid #ffff;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-toggle:hover{
+  color: #ffff;
+}
+.banner {
+  background-size: cover;
+}
+ .banner select{
+  border-width: 0;
+  border-radius: 2px;
+  width: 80vw;
+  height: 30px;
+}
+.banner  option{
+color: gray;
+}
+.main h1{
+  font-size: 4em;
+  letter-spacing: 4px;
+  color: cyan;
+  font-family: 'Inter', sans-serif;
+}
+.main h3, .main button .main p{
+  color: #ffff;
+  font-family: 'Inter', sans-serif;
+
+}
+.main button {
+  height: 50px;
+  width: 230px;
+  background-color: transparent;
+  border-width: 2px solid;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.main button:hover{
+  background-color: #ffff;
+  color: cyan;
+  font-weight: bold;
+}
+.new{
+font-weight: 500;
+background: #e50099;
+padding: 3px;
+border-radius: 5px;
+font-family: 'Inter', sans-serif;
+font-size: 0.75em;
+}
+.main a{
+  text-decoration: none;
+  color: cyan;
+  font-weight: bold;
+}
+.laptop{
+  width: 100wh;
+  height: 90%;
+}
+#os h3, #os p, #feature h3, #feature p, .insideout p, .insideout h3 {
+  color: #808080;
+} 
+#h3, #recent{
+  color: #6b6868;
+}
+#feature{
+  background-color: #F8F8F8;
+  border-top: solid #C6C6C6 2px ;
+  border-bottom: solid #C6C6C6 2px ;
+}
+#feature img{
+  width: 50px;
+}
+.file{
+  border-left: solid #ede2e2 2px ;
+  border-right: solid #ede2e2 2px ;
+}
+.insideout p{
+  letter-spacing: -1px;
+}
+.insideout{
+  border-bottom: solid #C6C6C6 2px ;
+}
+.footer{
+  background-color: #F8F8F8;
+}
+.footer h4{
+  color: #1E73BE;
+}
+.license{
+  border-top: solid #C6C6C6 2px ;
+}
+.social img{
+  width: 35px;
+  padding: 2px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.social img:hover{
+  opacity: 0.6;
+}
